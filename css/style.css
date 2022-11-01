@@ -405,3 +405,21 @@ h3{
 div.footer>img{
     height: 4.5vh;
 }
+
+/* Responsiveness */
+
+@media screen and (max-width:1400px) {
+
+    .Project_card1{
+        height: 330px;
+        width: 410px;
+        background-color: #222222;
+    }
+    
+    img[alt='project_img']{
+        width: 345px;
+        height: 230px;
+       
+    }
+
+}
