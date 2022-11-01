@@ -65,7 +65,7 @@ nav {
 /* ---------    HEADER SECTION  -->> Header Content Section     ---------*/
 
 .header-content{
-    width: 100vw;
+    width: 94vw;
     height: 63vh;
     margin: auto;
     margin-left: 5rem;
@@ -119,15 +119,15 @@ nav {
 
 .header_heroName{
     color:#FF3343;
- 
 }
-/*   ----[[[[    Header Content Section Responsive   ]]]]-----   */
 
+/*  content section */
 .content-container{
     width: 70vw;
     margin: auto;
 }
 
+/* section 2 */
 .section2_background{
     /* background-color: #232323; */
     background-color: #181818;
@@ -422,4 +422,154 @@ div.footer>img{
        
     }
 
+}
+
+@media screen and (max-width:1200px) {
+
+    
+    
+    /* nav bar */
+    
+   nav {
+        height: 12vh;
+    }
+
+  .nav-logo{
+      height: 40px;
+      width: 100px;
+    }
+  
+  .nav-list {
+    gap: 1.75rem;
+    width: 40vw;
+  }
+
+  /* header section */
+
+  
+    .header-content{
+        margin-left: 3rem; 
+    }
+
+    .header_img{
+        width: 430px;     
+    }
+
+    .header-right{
+        width: 45vw;
+    }
+
+    .header-heading{
+        font-size: 45px;
+        line-height: 55px;
+    }
+    
+    .header-description{
+        font-size: 15px;
+    }
+       
+    .header_button{
+        width: 13vw;
+        height: 5vh;
+        font-size: 15px;
+        padding: 0.35rem 0.7rem;
+      
+    }
+
+    /* content section */
+
+    .content-container{
+        width: 85vw;
+        margin: auto;
+    }
+
+    /* content - section 2 */
+
+    .section2{
+        height: 90vh;
+        width: 75vw;
+        margin: auto;
+        padding-top: 4vh;
+    }
+
+    .s2_card{
+        width: 26%;
+        height: 82%;
+        /* background-color: #ddb061; */
+        display: flex;
+        flex-direction: column;
+        gap: 2vh;
+        justify-content: space-evenly;
+        padding: 4vh 1.5vw 3.8vh 3vw;
+        
+    }
+
+    .s2icon{
+        height: 21%;
+        width: 48%;
+    }
+
+    .s2card_heading{
+        font-size: 21px;
+        font-weight: 600;
+    }
+
+    .s2card_description{
+        font-size: 17px;
+        font-weight: 200; 
+    }
+
+    .s2card_knowMore, .active_knowMore{
+        font-size: 13px;
+        font-weight: 600;
+    }
+  
+    /* section 3 - project heading */
+
+    .Project_heading>div>h1{
+        font-size: 20px;
+    }
+
+    .button{
+        float: right;
+        width: 12vw;
+        height: 5vh;
+        font-size: 14px;
+        padding: 0.35rem 0.7rem;
+        
+    }
+
+    /* section 3 - project cards section */
+
+    .Project_card1{
+        height: 310px;
+        width: 390px;
+        background-color: #222222;
+    }
+    
+    img[alt='project_img']{
+        width: 335px;
+        height: 220px;
+       
+    }
+
+    /* section 4  */
+
+    .section4_content>div>h1{
+        font-size: 28px;
+        font-weight: 500;
+        width: 35vw;
+        line-height: 42px;
+        margin-bottom: 1vh;
+        font-family: "poppins";
+    }
+    
+    .section4_content>div>p{
+        font-size: 13px;
+        font-weight: 200;
+        width: 35vw;
+    }
+
+
+   
 }
