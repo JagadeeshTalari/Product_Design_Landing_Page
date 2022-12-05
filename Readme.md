@@ -2,7 +2,7 @@
 
 <br>
 
-# [Peroduct Design Landing Page](https://jagadeeshproject15.netlify.app/)
+# [Product Design Landing Page](https://jagadeeshproject15.netlify.app/)
 
 <br><br>
 
